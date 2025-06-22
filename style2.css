@@ -1,0 +1,66 @@
+body {
+  background-color: #fff8f0; /* light warm cream */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #5a3e1b; /* dark brown */
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #8b5e3c;
+}
+
+.product {
+  background-color:lightpink;
+  border-radius: 10px;
+  padding: 25px 30px;
+  margin-bottom: 25px;
+  box-shadow: 0 5px 15px rgba(160, 109, 42, 0.15);
+  transition: box-shadow 0.3s ease;
+}
+
+.product:hover {
+  box-shadow:lightgreen;
+}
+
+.product h3 {
+  font-family: 'Georgia', serif;
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+  color: black;
+}
+
+.product p {
+  font-size: 1.1rem;
+  color:white;
+  font-weight: 600;
+}
+#reviewsBtn {
+  background-color: #007BFF;  
+  color: white;               
+  border: none;               
+  padding: 12px 24px;        
+  font-size: 16px;            
+  border-radius: 6px;      
+  cursor: pointer;            
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#reviewsBtn:hover {
+  background-color: #0056b3;  
+  transform: scale(1.05);    
+}
+
+#reviewsBtn:focus {
+  outline: 2px solid #0056b3; 
+  outline-offset: 2px;
+}
+
+
+
+
