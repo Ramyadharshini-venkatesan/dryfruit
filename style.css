@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff8f0;
+  color: #5a3e1b;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("./images/dryfruitsbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+header {
+  background-color: #a0522d; 
+  color: white;
+  padding: 25px 20px;
+  text-align: center;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.12);
+}
+
+header h1 {
+  font-family: 'Georgia', serif;
+  font-weight: 700;
+  font-size: 2.8rem;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #ffde7d; /* warm yellow */
+  color: #5a3e1b;
+  outline: none;
+}
+
+main {
+  flex-grow: 1;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+main h2 {
+  font-family: 'Georgia', serif;
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+  color: #8b5e3c;
+}
+
+main p {
+  font-size: 1.2rem;
+  color: #6b4c2b;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(160, 109, 42, 0.3);
+  transition: transform 0.3s ease;
+}
+
+main img:hover {
+  transform: scale(1.03);
+}
+
+footer {
+  background-color: #a0522d;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 0.9rem;
+  box-shadow: 0 -3px 7px rgba(0, 0, 0, 0.1);
+  margin-top: auto;
+}
+
+.con{
+  height: 250px;
+  width: 500px;
+  padding: 20px;
+  border: solid black 2px;
+  background-color:bisque;
+  text-align: center;
+  margin-top: 85px;
+}

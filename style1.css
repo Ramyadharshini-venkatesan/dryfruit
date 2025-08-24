@@ -1,0 +1,65 @@
+body {
+  
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image:url("./images/user.jpg ");
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+h2 {
+  text-align:center;
+  font-family: 'Georgia', serif;
+  font-size: 2rem;
+  color:brown;
+  margin-right: 20px;
+}
+
+form#loginForm {
+  background-color:lightgray;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(160, 109, 42, 0.25);
+  width: 320px;
+  box-sizing: border-box;
+}
+
+form#loginForm input[type="text"],
+form#loginForm input[type="password"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 12px 0;
+  border: 1.5px solid #a0522d;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+form#loginForm input[type="text"]:focus,
+form#loginForm input[type="password"]:focus {
+  border-color: #ffde7d; 
+  outline: none;
+}
+
+form#loginForm button {
+  width: 100%;
+  padding: 12px;
+  background-color: #a0522d; 
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+form#loginForm button:hover {
+  background-color: #8b3e10;
+}

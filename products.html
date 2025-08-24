@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Products</title>
+  <link rel="stylesheet" href="style2.css" />
+ 
+</head>
+<script>
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    const btn = document.getElementById('reviewsBtn');
+    btn.addEventListener('click', function() {
+      window.location.href = 'reviews.html'; // Redirect to reviews page
+    });
+  });
+</script>
+<script>
+  function buyNow(productName, price) {
+    alert(`Thank you for choosing ${productName}!\nPrice: $${price}\nCheckout coming soon.`);
+    // Or redirect to a checkout page
+    
+  }
+</script>
+
+<body>
+  <h2>Our Products</h2>
+  <div class="product">
+    <h3>Almonds</h3>
+    <p>
+  Almonds are nutrient-rich nuts packed with healthy fats, protein, fiber, vitamins, and minerals. They are known to support heart health, improve brain function, and help regulate blood sugar levels. Enjoy almonds as a wholesome snack, add them to your breakfast cereals, salads, or baked goods for a delicious crunch and natural energy boost. Our almonds are carefully selected and fresh to ensure the best quality for your health and taste.
+</p>
+<p>Price: $10</p>
+    <img src="./images/image1.jpg">
+    <button class="buy-btn" onclick="buyNow('Almonds', 10)">Buy Now</button>
+    
+
+    
+
+
+  </div>
+  <div class="product">
+    <h3>Cashews</h3>
+<p>
+  Cashews are creamy, buttery nuts packed with heart-healthy fats, protein, and important minerals like magnesium and zinc. They help support bone health, boost immunity, and provide lasting energy. Cashews are delicious on their own or as an ingredient in cooking, baking, and snacks. Our cashews are fresh and carefully selected to ensure you get the best taste and nutrition every time.
+</p>
+
+    
+<p>Price: $12</p>
+    <img src="./images/image2.jpg">
+    <button class="buy-btn" onclick="buyNow('Cashews', 12)">Buy Now</button>
+    
+
+
+  </div>
+  <div class="product">
+    <h3>Walnuts</h3>
+    <p>
+  Walnuts are a powerhouse of nutrition, rich in omega-3 fatty acids, antioxidants, and essential vitamins. They support brain health, reduce inflammation, and promote a healthy heart. These crunchy nuts are perfect for snacking, baking, or adding to salads and dishes to boost flavor and nutrition. Our walnuts are fresh, carefully sourced, and ready to provide you with natural goodness in every bite.
+</p>
+
+    <p>Price: $11</p>
+    <img src="./images/image3.jpg">
+    <button class="buy-btn" onclick="buyNow('walnuts', 11)">Buy Now</button>
+    
+
+
+  </div>
+  <div class="product">
+  <h3>Pistachios</h3>
+  <p>
+    Pistachios are tasty, green-hued nuts loaded with protein, fiber, and antioxidants. They support healthy cholesterol levels, aid digestion, and provide long-lasting energy. Great as a snack or in desserts and savory dishes, our premium pistachios are roasted and packaged to preserve freshness and flavor.
+  </p>
+  <p>Price: $13</p>
+  <img src="./images/image 4.jpg" alt="Pistachios">
+  <button class="buy-btn" onclick="buyNow('pistachios', 13)">Buy Now</button>
+   
+
+
+
+</div>
+
+<div class="product">
+  <h3>Hazelnuts</h3>
+  <p>
+    Hazelnuts are crunchy, sweet-flavored nuts rich in healthy fats, vitamins E and B, and minerals. They help maintain heart health, support brain function, and improve skin health. Enjoy them raw, roasted, or blended into spreads and recipes. Our hazelnuts are premium quality, ensuring maximum taste and nutrition.
+  </p>
+  <p>Price: $14</p>
+  <img src="./images/image5.jpg" alt="Hazelnuts">
+<button class="buy-btn" onclick="buyNow('Hazelnuts', 14)">Buy Now</button>
+
+
+</div>
+
+<button id="reviewsBtn">Reviews</button>
+  <script src="script.js"></script>
+
+
+
+  
+</body>
+</html>
+

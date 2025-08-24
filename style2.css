@@ -1,0 +1,83 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color:brown;
+}
+
+/* Product container */
+.product {
+  background-color:lightcoral;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+}
+
+.product:hover {
+  transform: scale(1.02);
+}
+
+/* Product title */
+.product h3 {
+  color: #27ae60;
+  margin-top: 0;
+}
+
+/* Product description */
+.product p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+/* Product image */
+.product img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+/* Button style */
+#reviewsBtn {
+  display: block;
+  margin: 40px auto;
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#reviewsBtn:hover {
+  background-color: #219150;
+}
+.buy-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buy-btn:hover {
+  background-color: #1f6391;
+}
